@@ -2,6 +2,8 @@ h1 {
     text-align: center;
 }
 
+/* Gameboard Styling */
+
 #game-board {
     display: flex;
     align-items: center;
@@ -28,4 +30,30 @@ h1 {
   
 .letter-row {
     display: flex;
+}
+
+/* On-Screen Keyboard Styling */
+
+#keyboard-container {
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+#keyboard-container div {
+    display: flex;
+}
+  
+.second-row {
+    margin: 0.5rem 0;
+}
+  
+.keyboard-button {
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 0.5rem;
+    margin: 0 2px;
+    cursor: pointer;
+    text-transform: uppercase;
 }
